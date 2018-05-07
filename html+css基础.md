@@ -1,4 +1,4 @@
-# html、css基础
+# html+css基础
 
 ## 1、如何创建html文件
 后缀名修改为html
