@@ -62,3 +62,31 @@ git status
 git commit -m  "xiaomi"
 上传
 git push
+
+
+
+动画：
+1、定义动画
+@keyframes bianse{
+from{
+background{}
+}
+to{
+background{}
+}
+
+2、绑定到选择器上
+animation-name:bianse; 动画名称
+animation-duration:2s;动画时间
+animation-timing-function:ease;运动方式
+animation-delay:1s;延迟时间
+animation-iteration-count:2s;运动次数（infinite 无数次）
+animation-fill-mode;forwards;运动停止的状态（停止在最后状态）
+animation-direction:normal;运动方向（alternate下次反向）
+animation-play-state:paused（停止）控制运动状态 running运动
+
+图片精灵
+
+锚链接：
+点击：<a href="#mao"></a>
+跳转：<a href="mao"></a>
