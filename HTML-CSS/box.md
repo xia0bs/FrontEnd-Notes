@@ -1,4 +1,4 @@
-内填充（padding）
+# 内填充（padding）
 
 是什么： 代表的是内容到边框之间的距离。
 问题：  盒子会变大
@@ -13,7 +13,7 @@ padding-bottom；下填充
 padding-left；  左填充
 padding-right；  右填充  
 
-外边距（margin)
+# 外边距（margin)
 
 是什么：盒子与盒子之间的距离
 
@@ -26,12 +26,18 @@ margin：0 auto    上下 左右
 flex布局：垂直
 
 
-盒子模型中的问题
+## 盒子模型中的问题
+
 1.  margin可以设负值，padding不可以
+
 2.去掉浏览器默认样式
+
+```
 *{ margin 0
 padding 0
 }
+```
+
 3盒子模型真实宽高
 寛 ：border-left + padding-left + width + padding-right + border-right
 高：  border-top + padding-top + height + padding-bottom + border-bottom
@@ -46,20 +52,28 @@ padding 0
 
 4  行内标签 a   不能设置上下间距   只能设置左右间距.
 
-5、margin-top的bug问题
+5、**margin-top的bug问题**
 
 现象：给子元素设置margin-top，父元素跟着一起下移
 原因：（5个条件同时满足）
+
   1. 子元素是父元素的第一个子元素
+  
   2. 父元素没有边框
+  
   3. 父元素没有填充
+  
   4. 父元素没有浮动
+  
   5. 子元素没有浮动
+  
 解决：
+
   1. 给父元素加over-flow:hidden;
+  
   2. 用父元素的padding-top模拟子元素的margin-top
 
-img与背景图片的区别
+## img与背景图片的区别
 经常更新用 IMG
 背景图片用 css  
 
