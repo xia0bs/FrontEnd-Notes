@@ -6,13 +6,10 @@
 form action="a.php" method="post"
 ```
 
-> action 提交的位置  
->   
-> method 提交的方式  
->   
-> get 信息量少 不安全  
->   
-> post 信息量多 安全  
+> action 提交的位置
+> method 提交的方式
+> get 信息量少 不安全
+> post 信息量多 安全 
 
 2. 输入框
 
