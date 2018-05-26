@@ -10,12 +10,6 @@ includes：
 
 - javascript
 
-- AJAX
-
 - jquery
 
-- PHP
-
-- mysql
-
-- node.js
+- AJAX
